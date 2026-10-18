@@ -21,7 +21,8 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            overflow: hidden;
+            overflow-x: hidden;
+            overflow-y: auto;
         }
 
         .container {
@@ -96,6 +97,33 @@
             font-size: 0.9rem;
         }
 
+        .download {
+            margin-top: 42px;
+        }
+
+        .download a.button {
+            display: inline-block;
+            border: 1px solid #3d5270;
+            background: #1a2740;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 14px 28px;
+            border-radius: 8px;
+            font-size: 1rem;
+            letter-spacing: 0.04em;
+        }
+
+        .download a.button:hover {
+            background: #243656;
+        }
+
+        .download p {
+            margin-top: 14px;
+            max-width: 460px;
+            color: #6d7d92;
+            font-size: 0.85rem;
+        }
+
         footer {
             margin-top: 55px;
             color: #4f5d70;
@@ -132,6 +160,11 @@
             <div class="feature">⛏ Automation</div>
             <div class="feature">🌎 Exploration</div>
             <div class="feature">🧱 Building</div>
+        </div>
+
+        <div class="download">
+            <a class="button" href="downloads/dukkit-0.1.0.7z" download>Download Dukkit</a>
+            <p>This copy is locked. Open it with 7-Zip and the password.</p>
         </div>
 
         <footer>
